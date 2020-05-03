@@ -47,12 +47,14 @@ public class MapHW {
 		for(String v:values) {
 			System.out.println("Value from collection "+v);
 		}
+		
 
 		System.out.println("--- getting all values using iterator ---- ");
 		Iterator<String> valuesIt=values.iterator();
 		while(valuesIt.hasNext()) {
 			System.out.println("Map values: "+valuesIt.next());
 		}
-	}
 
+		
+	}
 }

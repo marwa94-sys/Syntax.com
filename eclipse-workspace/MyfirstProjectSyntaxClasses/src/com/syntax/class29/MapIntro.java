@@ -1,12 +1,15 @@
 package com.syntax.class29;
 
 
+
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 public class MapIntro {
 	public static void main(String[] args) {
-		//hashmap is not maintain order
+	//hashmap is not maintain order
 		Map<String, String>hmap=new HashMap<>();
 
 		//to store values into Map we use put
@@ -40,6 +43,8 @@ public class MapIntro {
 		//replace values in map
 		hmap.replace("Zip", "98765");
 		System.out.println(hmap);
+	
+	
 	} 
 
 }

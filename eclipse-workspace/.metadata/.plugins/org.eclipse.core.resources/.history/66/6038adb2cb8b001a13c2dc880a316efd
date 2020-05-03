@@ -1,0 +1,44 @@
+package Selenuim.WebDriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+public class WedDriver {
+	public static void main(String[] args) {
+		
+		//Test case 
+		
+		/*
+		 *  1) Open a browser 
+		 *  2) Open URL --> Uniform Resource Locator
+		 *  3) Enter  user name
+		 *  4) Enter password 
+		 *  5) Click on ok
+		 *  6) Check the page title 
+		 *  //forward slash
+		 */
+		
+		System.setProperty("webdriver.firefox.marionette","C:\\Users\\marwa\\Documents\\Drivers\\geckodriver.exe");
+		FirefoxDriver driver =new FirefoxDriver();  //Invoke the browser 
+		WebDriver  driver1 = new FirefoxDriver();   //Interfaces concept (Valid state)  we create an object but we can not instantiated it
+		driver1.get("http://newtours.demoaut.com/"); //Open URL in the browser 
+		
+		
+		driver1.findElement(By.name("userName")).sendKeys("mercury");
+		 
+		
+		//findElement()----> used for find element on the page 
+		// By.name("")---> it will provide address of the element 
+		//sendKeys()--->used for entering some text in the text box
+		
+		
+		
+		
+		
+		
+	}
+
+}

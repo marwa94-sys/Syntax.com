@@ -1,0 +1,63 @@
+package Selenuim.WebDriver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Test {
+	public static void main(String[] args) {
+		
+	//Making connection to the browser 	
+System.setProperty("webdriver.gecko.driver","Drivers\\geckodriver.exe");
+    //Invoking the browser 
+WebDriver driver = new FirefoxDriver();
+
+// Passing the the url 
+driver.get("https://justfly.com");
+String excpectedurl=driver.getCurrentUrl();
+
+System.out.println(excpectedurl);
+	driver.getTitle();
+String actualUrl= "https://justfly.com";	
+		
+if 	(excpectedurl.equalsIgnoreCase(actualUrl)) {
+	driver.getTitle();
+}	else {
+	System.out.println("you entred  the wrong url  ");
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	}

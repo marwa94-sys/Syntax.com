@@ -25,6 +25,8 @@ public class EntrySet {
 		}
 
 		System.out.println("---iterate through all entries to get a key and value");
+		
+		
 		Iterator<Entry<String, String>> entryIterator=allEntries.iterator();
 		while(entryIterator.hasNext()) {
 			Entry<String, String> e=entryIterator.next();

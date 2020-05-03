@@ -32,7 +32,7 @@ public class HashSetDemo {
 		}
 		//we cannot use for loop
 //		for(int i=0;i<breakfast.size(); i++) {
-//			breakfast.ge
+//			breakfast.ge becuase map not indexed based 
 //		}
 		System.out.println("-------- ----------- ----------");
 		//advanced/enhanced for loop/for each loop

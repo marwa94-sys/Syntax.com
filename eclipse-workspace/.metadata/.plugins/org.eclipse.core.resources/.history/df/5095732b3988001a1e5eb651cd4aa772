@@ -1,0 +1,31 @@
+package com.syntax.hw;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class loginToHrms {
+
+	public static void main(String[] args) throws IOException {
+		
+		
+	//String filePath="C:\\Users\\marwa\\eclipse-workspace\\Selenium\\configs\\configuration.properties";
+	String filepath=System.getProperty("user.dir")+"\\configs\\configuration.properties"; //  Graphite it dynamically  
+	System.out.println(filepath);	
+	
+	
+	//String filePath1="C:\\Users\\marwa\\eclipse-workspace\\Selenium\\configs\\configuration.properties"; // we are always have different user Name 
+	
+	FileInputStream fis= new FileInputStream(filepath);
+	Properties prop=new Properties();
+	prop.load(fis);
+	
+	
+	
+	
+	
+	
+	
+	}
+}

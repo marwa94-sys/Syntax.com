@@ -20,7 +20,7 @@ public class WrapperClasses {
 		Boolean bool=true;
 		//auto unboxing
 		boolean b1=bool;
-
+    System.out.println(b1);
 
 	}
 

@@ -1,0 +1,19 @@
+package com.syntax.class33;
+
+public class ExceptionIntro {
+	static String str;
+	public static void main(String[] args) {
+		
+		int a=10;
+		int b=0;
+		
+		//System.out.println(a/b);   ---> ArithmeticException
+		System.out.println("End of the program");
+		
+		int [] array= {12,3,13};
+		System.out.println(array[3]);   //------>
+		
+		System.out.println(str.length());//---->
+	}
+
+}

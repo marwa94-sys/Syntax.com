@@ -1,0 +1,15 @@
+package com.syntax.hw;
+
+public class loginToHrms {
+
+	public static void main(String[] args) {
+		
+		
+	//String filePath="C:\\Users\\marwa\\eclipse-workspace\\Selenium\\configs\\configuration.properties";
+	String filepath=System.getProperty("user.dir")+"\\configs\\configuration.properties";
+	System.out.println(filepath);	
+	
+	
+	
+	}
+}

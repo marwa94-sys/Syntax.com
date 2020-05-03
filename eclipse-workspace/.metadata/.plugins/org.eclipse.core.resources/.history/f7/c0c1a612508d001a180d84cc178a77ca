@@ -1,0 +1,67 @@
+package com.syntax.class34;
+
+
+public class TryCatchFinally {
+public static void main(String[] args) {
+	
+	
+	division(10, 5);
+	division(10, 0);
+	
+//public static void division(int num,int num1) {}	
+}
+	
+	
+public static int division(int num,int num1) {
+	int result=0;
+	
+	try {
+		result=num/num1;
+	}catch (ArithmeticException ae) {
+		//ae.printStackTrace();  //detailed message of an exception
+		
+		System.out.println(	ae.getMessage());   // provide friendly msg , this method  will give us message of an exception
+		//System.out.println();
+	}finally {
+		System.out.println("I am finally block");
+	}
+	return result;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

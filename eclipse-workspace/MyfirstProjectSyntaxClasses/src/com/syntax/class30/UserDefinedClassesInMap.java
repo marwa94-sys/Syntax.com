@@ -83,8 +83,9 @@ public class UserDefinedClassesInMap {
 			Store obj=storeMap.get(key);
 			obj.display();
 			obj.workingHours();
-			System.out.println("-----------------------------");
+			System.out.println(  "-----------------------------");
 		}
+	
 	}
 
 

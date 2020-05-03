@@ -27,10 +27,13 @@ public class MapEntry {
 		for(Entry e:entries) {
 			System.out.println(e.getKey()+":"+e.getValue());
 		}
+		
+		
 		System.out.println(" -----  Using iterator to go over all entry objects -----");
 		//iterate through all entry objects
 		Iterator<Entry<String, Integer>> it=entries.iterator();
 		while(it.hasNext()) {
+			
 			//System.out.println("Key="+it.next().getKey()+"; value="+it.next().getValue());
 			Entry <String, Integer>entry=it.next();
 			System.out.println(entry);
