@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [homeworkSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="homeworkTest(failed)">
+    <groups>
+      <run>
+        <include name="homework"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.class04.HW">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.class04.HW -->
+    </classes>
+  </test> <!-- homeworkTest(failed) -->
+</suite> <!-- Failed suite [homeworkSuite] -->

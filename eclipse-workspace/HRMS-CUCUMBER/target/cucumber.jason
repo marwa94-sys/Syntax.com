@@ -1,0 +1,123 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-02T00:51:41.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6323602300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "invalid login",
+        "description": "",
+        "id": "sace-demo-login;invalid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 822691200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.hrms.steps.SauceDemoLoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4021900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters invalid username as below",
+            "match": {
+              "location": "com.hrms.steps.SauceDemoLoginSteps.user_enters_invalid_username_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username"
+                ]
+              },
+              {
+                "cells": [
+                  "admin"
+                ]
+              },
+              {
+                "cells": [
+                  "regular"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131648600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters invalid password",
+            "match": {
+              "location": "com.hrms.steps.SauceDemoLoginSteps.user_enters_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125434300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on login button",
+            "match": {
+              "location": "com.hrms.steps.SauceDemoLoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1007800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see the error message",
+            "match": {
+              "location": "com.hrms.steps.SauceDemoLoginSteps.user_should_see_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sace Demo login",
+    "description": "",
+    "id": "sace-demo-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SauceDemoLoginWithDataTable.feature",
+    "tags": []
+  }
+]

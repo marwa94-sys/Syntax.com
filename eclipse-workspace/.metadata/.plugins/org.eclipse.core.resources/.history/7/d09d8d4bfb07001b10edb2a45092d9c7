@@ -1,0 +1,53 @@
+package selenuimPractice;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class DropDwonDemo  {
+	public static void main(String[] args) {
+		
+		
+		
+		System.getProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		WebElement weekDD= driver.findElement(By.id("sdbf"));
+		
+		Select select=new Select(weekDD);
+	    
+		/**
+		 * Selenuim provides three different ways to select value from DD 
+		 * 1 By index 
+		 */
+	     select.deselectByIndex(3);
+	     
+	     List<WebElement> options=select.getOptions();
+	     
+	     System.out.println("The size of the WeekDD is : "+(options.size()));
+	    
+		
+		
+	
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+		
+		
+		
+	}
+	}

@@ -1,0 +1,55 @@
+package selenuimPractice;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandelAlert {
+	
+	public static void main(String[] args) {
+		
+		
+	   System.setProperty("webdriver.chrome.driver","the path of the driver");
+	   
+	   WebDriver driver= new ChromeDriver();
+	   
+	  // WebElement alert= driver.findElement(By.id("kdsmoermf"));
+	   
+	   
+	   /**
+	    * Handling Simple Alert/PopUps
+	    * 
+	    */
+	   Alert alert=driver.switchTo().alert();
+	   String alertText=alert.getText();
+	   System.out.println(alertText);
+	   alert.accept();
+	   
+		
+		
+	   
+	   /**
+	    * Handling Confirmation Alert 
+	    */
+	   driver.findElement(By.id("Confirm")).click();// The first thing we should swith the focus to the alert 
+	   Alert confirmAlert= driver.switchTo().alert();
+	   String comfirmAlertText= confirmAlert.getText();
+	   System.out.println("This is Alert Confirm Text: "+ comfirmAlertText);
+	   
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

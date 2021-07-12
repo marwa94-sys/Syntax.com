@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Selenium/src/com/syntax/selenuim/class01/OpenChromeBrowser.java"/>
+        <listEntry value="/com.syntax.Selenium"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
-        <listEntry value="1"/>
+        <listEntry value="4"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.syntax.selenuim.class01.OpenChromeBrowser"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Selenium"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.market.practice.OpenChromeBrowser"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="com.syntax.Selenium"/>
 </launchConfiguration>

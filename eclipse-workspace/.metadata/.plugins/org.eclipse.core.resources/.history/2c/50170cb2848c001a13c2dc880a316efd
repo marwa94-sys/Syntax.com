@@ -1,5 +1,0 @@
-package com.syntax.class33;
-
-public class Map<T1, T2> {
-
-}

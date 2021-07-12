@@ -1,0 +1,20 @@
+Feature: Login
+
+@smoke
+Scenario: valid admin to HRMS
+When user enter valid admin username and password 
+And user click on login button
+Then admin user is successfully logged in
+
+@smoke
+Scenario: Valid ess login 
+When user enter valid ess username and password 
+And user click on login button
+Then ess user is successfully logged in 
+
+@regression
+Scenario: Login with valid username and invalid password 
+When User enter valid username and invalid password  
+And User enter click on login button 
+Then User see Invalid Credentials text on login page 
+

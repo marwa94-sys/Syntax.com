@@ -1,0 +1,38 @@
+package selenuimPractice;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandelAlert {
+	
+	public static void main(String[] args) {
+		
+		
+	   System.setProperty("webdriver.chrome.driver","the path of the driver");
+	   
+	   WebDriver driver= new ChromeDriver();
+	   
+	  // WebElement alert= driver.findElement(By.id("kdsmoermf"));
+	   
+	   Alert alert=driver.switchTo().alert();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
